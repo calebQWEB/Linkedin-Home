@@ -21,13 +21,15 @@ To build the project for production, run the following command:
 
 The production-ready files will be generated in the build directory.
 
-## Features
-- User profile page
+## Main Features
 - News feed with posts and comments
     - Posts section uses Redux to manage state changes and handle post likes and comments
     - Fake data generated using Faker.js library
+    ![Post and Comment section](src/assets/README/linkedin-post.png)
+
 - Messaging between users
     - Ability to see and manage individual messages
+    ![Post and Comment section](src/assets/README/LinkedIn-message.png)
 
 ## Contributing
 Contributions are welcome! To contribute to the project, follow these steps:
