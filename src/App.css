@@ -1,0 +1,23 @@
+.App {
+  background-color: var(--main-bg-color);
+  position: relative;
+}
+
+.second {
+  border-left: 0.5px solid #d3d3d3;
+}
+
+.navMenu {
+    border: 0.2px solid rgb(216, 216, 216);
+}
+
+.profile {
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .profile {
+      height: 400vh;
+    }
+}
+

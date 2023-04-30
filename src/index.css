@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #f3f2ef;
+    --search-bg-color: #EEF3F8;
+    --linkedin-blue: #5897D5;
+    --thick-blue: #0A66C2;
+    --nav-links: #666666;
+    --premium: #915907;
+}
+
+/* <div className="flex items-center gap-1">
+<picture className="w-10">
+  <img src={Logo} alt="Linkedin Logo" />
+</picture>
+<div className="relative lg:w-72">
+  <input
+    type="text"
+    className="hidden lg:block w-full h-10 rounded-sm bg-search focus:w-96 transition-width duration-300 ease-in-out px-3 pl-10"
+    placeholder="Search"
+    value={input}
+    onChange={(e) => setInput(e.target.value)}
+  />
+  <BiSearchAlt2 className="lg:absolute lg:top-1/2 lg:transform lg:-translate-y-1/2 lg:left-3" size={20}/>
+</div>
+</div> */
