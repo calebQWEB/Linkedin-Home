@@ -17,7 +17,7 @@ The server will start on http://localhost:3000.
 
 To build the project for production, run the following command:
 
-<span style="color:blue">npm install</span>
+<span style="color:blue">npm run build</span>
 
 The production-ready files will be generated in the build directory.
 
