@@ -6,7 +6,7 @@ import Profile from "./Profile";
 const ProfileMain = () => {
   const [showRecent, setShowRecent] = useState(true);
   const [showGroups, setShowGroups] = useState(true);
-  const [showMore, setShowMore] = useState(false);
+  const [showMore, setShowMore] = useState(true);
 
   return (
     <div className="text-center xl:w-1/2 profile relative">
@@ -25,18 +25,18 @@ const ProfileMain = () => {
       )}
 
       <div
-        className="hover:bg-gray-200 rounded-md my-4"
+        className="hidden xl:block hover:bg-gray-200 rounded-md my-4"
         onClick={() => setShowMore((prevState) => !prevState)}
       >
         {showMore ? (
-          <div className="flex items-center gap-1 justify-center py-1">
+          <div className="hidden xl:flex items-center gap-1 justify-center py-1">
             <span className="cursor-pointer text-sm text-links font-medium">
               Show less
             </span>
             <FaChevronUp className="text-links" />
           </div>
         ) : (
-          <div className="flex items-center gap-1 justify-center py-1">
+          <div className="hidden xl:flex items-center gap-1 justify-center py-1">
             <span className="cursor-pointer text-sm text-links font-medium">
               Show more
             </span>
